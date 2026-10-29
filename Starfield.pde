@@ -50,7 +50,7 @@ class Particle
   void move() {
     myX += Math.cos(myAngle)*mySpeed;
     myY += Math.sin(myAngle)*mySpeed;
-    myAlpha-=5;
+    myAlpha-=2;
   }
   void show() {
     fill(myCol,myAlpha);
