@@ -1,4 +1,4 @@
-Particle[][] stars = new Particle[3][];
+Particle[][] stars = new Particle[6][];
 int index = 0;
 void setup()
 {
